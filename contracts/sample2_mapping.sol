@@ -3,8 +3,13 @@ pragma solidity ^0.8.0;
 
 contract Mapper{
     //mappinglerimizi tanımlıyoruz. 
-    //
+    //registered değerini adress tipi değeriyle bool olarak mapliyoruz.
+    //yani registered değişkeni içinde bir adress gönderilirse bool olarak dönüş alıyoruz
+    // Mapping içerisinde key değeri ile sorgulama yapıldığında;
+    // eğer key değerine karşılık bir value değeri varsa o değeri döndürür,
+    // yoksa value tipi neyse o tipin default yani varsayılan değerini döndürür.
     mapping (address => bool ) public registered;
+    
     mapping (address => int256 ) public favNums;
 
     function isRegistered()public view returns(bool){
