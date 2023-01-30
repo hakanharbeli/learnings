@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/sample3_struct.sol": {
-			"keccak256": "0x7aedda3ebb3376d05e6d87d2914755a81b7f8cdb30b67ec4f351d143ad462fa1",
+			"keccak256": "0x8c6cef927f950b0a8e8daf7621dc3053c6178d2a5eaea377ee13de538e87be14",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://2bcff2afa45d00779457f6a6331408a1b89f073802662d4297da58b3663e42e3",
-				"dweb:/ipfs/QmdgSnDU7J8TS4Wrt2XbE6rJxkzasidz3vnUPyBFohh6Es"
+				"bzz-raw://1d003b4ee3d22b4822fb69772d4dc9a8fd35cff34ac0fae6fb5b394d58c4e932",
+				"dweb:/ipfs/QmSaj4SaMDWZbKR9ZQ8q1FQxXxqWcFGMwCASULUZCWiwjX"
 			]
 		}
 	},
