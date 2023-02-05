@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DurumNe",
+				"outputs": [
+					{
+						"internalType": "enum Enumer.Gate",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "GateClose",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/sample4_enum.sol": "Enumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/sample4_enum.sol": {
+			"keccak256": "0x3adaca5cee04f5b71e500917958839bc16e6835ab9a5b09fb3ff2cd95e4880b8",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://b40b09d90c3e86b3904c64d20eb935f068942fc27b62e417e95afeae20422e42",
+				"dweb:/ipfs/Qmbfq9V8txKuNKXoAgsXZtCN2nJubmJKCCir6keS7VeiYT"
+			]
+		}
+	},
+	"version": 1
+}
